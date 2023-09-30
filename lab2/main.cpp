@@ -23,7 +23,7 @@ void binom() {
     cout << "введите n: ";
     int n;
     cin >> n;
-    long long pred_C = 1;
+    double pred_C = 1;
     for(int k = 1; k <= n; k++) {
         pred_C = pred_C*(n-k+1)/k;
         cout << "k = " << k << " ";
